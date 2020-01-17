@@ -1,0 +1,81 @@
+:root {
+    --background: #d9d9d9;
+    --font: "Shanti", sans-serif;
+}
+
+body {
+    background-color: var(--background);
+    font-family: var(--font);
+    width: auto;
+}
+
+header {
+    display: flex;
+    margin: 0 auto;
+    width: auto;
+    max-width: 900px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 0 auto;
+    width: auto;
+}
+
+p {
+    line-height: 1.95;
+}
+
+#img-caption {
+    opacity: 0.6;
+    text-align: center;
+    font-style: italic;
+    font-size: 80%;
+    margin-top: 10px;
+}
+
+h2 {
+    margin-top: 10%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+section > figure#img-div {
+    margin: 0 auto;
+}
+
+footer {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#tribute-link {
+    color: brown;
+}
+
+footer > p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.responsive-pic {
+    max-height: 300px;
+    width: auto;
+}
+
+.round-border {
+    border-radius: 50%;
+}
+
+.introduction {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
